@@ -17,6 +17,7 @@
 header{
 	width: 100%;
 	position: fixed;
+	z-index: 10;
 	top: 0;
 	padding: 20px;
 	background-color: white;
@@ -31,7 +32,7 @@ header{
  }
 
 nav{
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -54,10 +55,10 @@ a {
 
 .top-image{
 	height: 600px;
-	width: 600px;
-	margin: 40px auto;
-	margin-top: 150px;
-	margin-bottom: 100px;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 170px;
+	margin-bottom: 80px;
 	background-image:url(../img/aska4.jpg);
  	background-size: cover;
  	background-position: center;   
@@ -98,9 +99,6 @@ a {
 	background-color: #ff6347;
 	width: 50%;
 }
-/*news_h3{
-	padding-top: 10px;
-}*/
 
 .news1 {
 	margin: 40px auto 10px 100px;
@@ -114,7 +112,7 @@ a {
 }
 
 .news2 {
-	margin: 50px auto 10px 100px;
+	margin: 40px auto 10px 100px;
 	text-align: auto;
 	color: #5f414b;
 	font-family: "Sawarabi Mincho";
@@ -144,6 +142,7 @@ a {
 	width: 200px;
 	margin: 0 auto 0 auto;
 	position: relative;
+	z-index: 1;
 }
 
 .circle-point1{
@@ -157,6 +156,7 @@ a {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 50px;
     position: absolute;
+    z-index: 2;
     top: 10px;
     left: -50px;
     display: block;
@@ -183,9 +183,9 @@ a {
 .circle2{
 	width: 300px;
 	height: 300px;
-	margin: 30px;
+	/*margin: 30px;*/
 	float: left;
-	margin: 30px auto auto 180px;
+	margin: 30px auto auto 150px;
 	border-radius: 50%;
 	background-image: url(../img/plofile.jpg);
 	background-size: cover;
@@ -222,7 +222,7 @@ a {
 	float: left;
 	width: 100%;
 	height: 800px;
-	background-color: rgba(255,255,255,0.4);
+	background-color: rgba(255,255,255,0.3);
 }
 
 .service-box1 {
@@ -234,10 +234,10 @@ a {
 }
 
 .circle3 {
-	float: left;
+	/*float: left;*/
 	width: 250px;
 	height: 250px;
-	margin: 20px auto 30px 100px;
+	margin: 20px auto 30px auto;
     border-radius: 50%;
 	background-image: url(../img/shopping2.jpg);
 	background-size: cover;
@@ -245,8 +245,8 @@ a {
 }
 
 .service-text1 {
-	float: left;
-	margin: 20px auto auto 50px;
+	/*float: left;*/
+	margin: 20px auto 50px;
 }
 
 .service-box2 {
@@ -257,10 +257,10 @@ a {
 	text-align: center;
 }
 .circle4 {
-	float: left;
+	/*float: left;*/
 	width: 250px;
 	height: 250px;
-	margin: 20px 60px 30px 80px;
+	margin: 20px auto 30px;
     border-radius: 50%;
 	background-image: url(../img/seminor1.jpg);
 	background-size: cover;
@@ -268,8 +268,8 @@ a {
 }
 
 .service-text2 {
-	float: left;
-	margin: 20px auto auto auto;
+	/*float: left;
+	margin: 20px auto auto auto;*/
 }
 
 .service-box3 {
@@ -280,10 +280,10 @@ a {
 	text-align: center;
 }
 .circle5 {
-	float: left;
+	/*float: left;*/
 	width: 250px;
 	height: 250px;
-	margin: 20px auto 30px 100px;
+	margin: 20px auto 30px;
     border-radius: 50%;
 	background-image: url(../img/media1.jpg);
 	background-size: cover;
@@ -291,8 +291,8 @@ a {
 }
 
 .service-text3 {
-	float: left;
-	margin: 20px auto auto 50px;
+	/*float: left;
+	margin: 20px auto auto 50px;*/
 }
 
 #media {
@@ -352,7 +352,6 @@ a {
 }
 
 .footer{
-	height: 
 	width: 100%;
 	position: fixed;
 	bottom: 0;
