@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	z-index: 100;
+	position: fixed;
+	background-color: white;
+}
+
+header img {
+	float: left;
+	text-align: center;	
+	margin: 10px;
+}
+
+header nav {
+	width: 50%;
+	height: 50px;
+	float: right;
+}
+
+header li{
+	list-style: none;
+	float: left;
+	color: white;
+	margin: 10px;
+	text-align: center;
+	font-size: 18px;
+	width: 20%;
+	margin: 0;
+	margin-top: 40px;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;
+}
+
+header a {
+	text-decoration: none;
+	color: #191970;
+}
+
+#container {
+	padding-top: 100px;
+	width: 70%;
+	height: 400px;
+	margin:0 auto;
+}
+
+h1 {
+	padding: 40px 30px 20px 30px;
+	text-align: center; 
+	color: #191970;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;
+}
+
+.warpper {
+	width: 100%;
+	height: 1450px;
+	margin-top: 120px;
+	background-image: url(../img/paper12.png);
+	background-position: top;
+	background-size: contain; 
+}
+
+.newarrival {
+	width: 85%;
+	height: 400px;
+	margin: 15px auto;
+	float: right;   
+}
+
+h3 {
+	width: 80%;
+	padding: 10px;
+	color: #191970;
+	/*float: right;*/
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;
+}
+
+.new-box {
+	width: 20%;
+	height: 250px;
+	text-align: center;
+	margin: 20px auto 20px auto;
+	float: right;
+}
+
+.new-image {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.img1 {
+	background-image: url(../img/new-image1.jpg);
+}
+
+.img2 {
+	background-image: url(../img/new-image2.jpg);
+}
+
+.img3 {
+	background-image: url(../img/new-image3.jpg);
+}
+
+.img4 {
+	background-image: url(../img/new-image4.jpg);
+}
+
+.img5 {
+	background-image: url(../img/new-image5.jpg);
+}
+
+.textbox {
+	width: 150px;
+	height: 70px;
+	margin: 10px auto;
+	text-align: center;
+	color: #191970;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;
+}
+
+.image-text {
+	width: : 150px;
+	height: 60px;
+	margin: 10px auto 0 auto;
+	text-align: center;
+	color: #191970;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;
+}
+
+
+
+.sidemenu {
+	width: 15%;
+	height: 900px;		
+	margin: 15px auto;	
+	float: left;
+	font-size: 20px;
+	color: #191970;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;		
+}
+
+
+#side_header {
+	width: 15%;
+	height: 50px; 
+	margin: 10px;	
+	text-align:　center;
+	font-size: 30px;
+	color: #191970;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;
+}
+
+.side-group {
+	padding: 0 0 0 30px;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li a {
+	list-style: none;			
+	display: block;			
+	margin: 5px 10px 5px 10px;		
+	text-decoration: none;
+	color: #191970;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;		
+}
+
+.best-group {
+	width: 85%;
+	height: 400px;
+}
+
+.bestseller {
+	width: 85%;
+	height: 400px;
+	margin: 0 auto;
+	float: right;
+}
+
+.best-box {
+	width: 30%;
+	height: 250px;
+	margin: 0 auto;
+	float: right;
+}
+
+.best-img {
+	width: 280px;
+	height: 280px;
+	margin: 0 auto;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.img6 {
+	background-image: url(../img/online1.jpg);
+}
+
+.img7 {
+	background-image: url(../img/online2.jpg);
+}
+
+.img8 {
+	background-image: url(../img/topics1.jpeg);
+}
+
+.best-text {
+	width: : 250px;
+	height: 60px;
+	font-size: 17px;
+	color: #191970;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;
+}
+
+.sns-group {
+	height: 80px;
+	width: 100%;
+	float: right;
+	padding: 10px;
+}
+
+.sns {
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+	color: #191970;
+}
+
+.sns-box {
+	height: 80px;
+	width: 50px;
+	float: right;
+	line-height: center;
+	margin: 10px;
+}
+
+footer {
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+	margin-top: 30px;
+	color: #191970;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cookie', cursive;
+}
